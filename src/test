@@ -1,0 +1,36 @@
+// import logo from './logo.svg';
+import './App.css';
+import DragNDrop from './Components/DragNDrop';
+import NavBar from './Components/NavBar';
+// import Buckets from './Components/Buckets';
+
+import ExampleCard from './Components/Cards';
+
+const data = [
+  { title: 'group 1', items: ['1', '2', '3'] },
+  { title: 'group 2', items: ['4', '5'] },
+];
+
+function App() {
+  // const [data, setData] = useState();
+  // useEffect(() => {
+  //   if (localStorage.getItem('List')) {
+  //     console.log(localStorage.getItem('List'));
+  //     setData(JSON.parse(localStorage.getItem('List')));
+  //   } else {
+  //     setData(defaultData);
+  //   }
+  // }, [setData]);
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         {/* <DragNDrop data={data} /> */}
+//         {/* <DragNDrop data={data} /> */}
+//         <NavBar />
+//         <ExampleCard />
+//       </header>
+//     </div>
+//   );
+// }
+
+export default App;
